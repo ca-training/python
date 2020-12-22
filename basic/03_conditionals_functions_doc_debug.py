@@ -68,7 +68,6 @@ x = 5
 print_plus_one(x)
 print(x)
 
-
 # multiple parameters work as you might expect
 def greeting(name, surname):
     print("Hello " + name + " " + surname)

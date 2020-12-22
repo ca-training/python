@@ -155,6 +155,14 @@ print("casting {} to {} is {}".format(y, type(n), n))
 
 print(divider)
 
+# looking into the void:
+print(None)
+print(type(None))
+print(bool(None))
+
+
+print(divider)
+
 # lastly, 'print()' IS NOT your friend
 a = 5
 b = "5"

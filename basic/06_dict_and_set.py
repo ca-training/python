@@ -15,6 +15,19 @@ bowl.remove("apple")  # this raises an error if it isn't there
 bowl.discard("grape")  # remove if it exists
 bowl.discard("grape")  # don't complain if it isn't there
 
+# set operations
+# A.union(B) (A ⋃ B)
+# A.intersection(B) (A ⋂ B)
+# A.difference(B) (A - B)
+# A.issubset(B) ? (A ⊆ B)
+# A.issuperset(B) ? (A ⊇ B)
+
+# Exercise: write a function that takes two parameters
+# and returns their multiplication
+# if either parameter is a type other than float or int
+# it should return None
+# (hint: sets are fun)
+
 
 # dict - a.k.a map, a.k.a hashtable
 

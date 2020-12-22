@@ -34,6 +34,16 @@ line
 string"""
 print(multi.splitlines())
 
+# strip
+fat = " whitespace "
+lean = fat.strip()
+print("Strip converts '{}' to '{}'".format(fat, lean))
+
+# strip is strong
+messy_string = " \n, \n some useful information \n ;\t "
+clean_string = messy_string.strip(",;\t\n ")
+print("'" + clean_string + "'")
+
 # all the indexing and other sequence goodness works...
 print("Indexes from s: " + s[4] + s[10:12] + s[-1])
 # an element of a string is a ... string
