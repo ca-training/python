@@ -116,13 +116,17 @@ https://code.visualstudio.com/docs/python/python-tutorial
 2. Read
 3. Write
 4. Try-Except
+5. import
 
 ### TODO
 
 * Classes
 * Inheritance
 * Delete
+* Binary data
 * Iterators
+* Lamdas
+* Comprehension
 * Modules
 * Dates & Logging
 * JSON
