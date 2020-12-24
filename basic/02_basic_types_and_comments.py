@@ -97,6 +97,9 @@ y = 2.71828
 print(y)
 print(type(y))
 
+# float precision is limited to around 1e-16 (see the decimal type for more)
+y = 2.7182818284590452
+
 # rounding is pretty simple
 print(round(y))
 

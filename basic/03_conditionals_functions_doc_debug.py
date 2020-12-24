@@ -134,6 +134,8 @@ y = user_friendly(x)
 
 
 # functions are also a type, and can be assigned like any other
+function_return_value = user_friendly(x)
+function_definition = user_friendly
 f = user_friendly
 # note that we are -not- calling the function, but creating an alias for it...
 print(type(f))
@@ -160,3 +162,9 @@ c = 4  # set a breakpoint here... and hit f5
 d = cube(c)
 print("Is {} equal to {}?".format(d, c ** 3))
 # use the debugger to step through the function
+
+
+# Homework:
+# 1. Write a function, when given two parameters, returns true if they are both integers
+# 2. Write a function, then given two parameters, returns the sum if they are integers and returns None otherwise
+# hint: https://www.w3schools.com/python/ref_func_isinstance.asp
